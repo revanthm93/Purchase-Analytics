@@ -1,0 +1,79 @@
+appstore_access_token:
+
+staging:
+  db_server: "mongodb://127.0.0.1:27017"
+
+production:
+  db_server: "mongodb://127.0.0.1:27017"
+
+itc_sales_report:
+  vendor: '86136624'
+  report_type: 'Sales'
+  report_version: '1_0'
+  date_type : 'Daily'
+  date: '20200104'
+  report_subtype: 'Summary'
+  database: 'fld'
+  collection: 'itc_sales_report'
+  bulkmode: 0
+  bulk_startdate: '20200101'
+  bulk_enddate: '20200102'
+
+itc_earnings_report:
+  vendor: '86136624'
+  region_codez: 'ZZ'
+  report_type: 'Financial'
+  fiscal_year: '2020'
+  fiscal_period: '06'
+  database: 'fld'
+  collection: 'itc_earnings_report'
+  bulkmode: 0
+  region_codes:
+    - 'BR'
+    - 'US'
+    - 'AU'
+    - 'BG'
+    - 'CA'
+    - 'CL'
+    - 'CN'
+    - 'CO'
+    - 'CZ'
+    - 'HR'
+    - 'DK'
+    - 'EG'
+    - 'HK'
+    - 'HU'
+    - 'IN'
+    - 'ID'
+    - 'IL'
+    - 'JP'
+    - 'KZ'
+    - 'KR'
+    - 'MY'
+    - 'MX'
+    - 'NZ'
+    - 'NG'
+    - 'NO'
+    - 'PK'
+    - 'PE'
+    - 'PH'
+    - 'PL'
+    - 'QA'
+    - 'RO'
+    - 'RU'
+    - 'SA'
+    - 'SG'
+    - 'ZA'
+    - 'SE'
+    - 'CH'
+    - 'TW'
+    - 'TH'
+    - 'TR'
+    - 'AE'
+    - 'GB'
+    - 'TZ'
+    - 'VN'
+    - 'EU'
+    - 'LL'
+    - 'WW'
+
